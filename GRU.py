@@ -2,7 +2,7 @@
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.preprocessing import sequence
+//from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import GRU, Dense, Embedding
 from tensorflow.keras.preprocessing.text import Tokenizer
