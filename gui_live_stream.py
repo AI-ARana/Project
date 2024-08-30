@@ -45,7 +45,7 @@ def stop_video():
     window.destroy()
 
 # Add a Stop button
-stop_button = Button(window, text="Stop", command=stop_video)
+stop_button = Button(window, text="Stop", command=stop_video, fg="white",bg="red",font=("Helvetica", 12, "bold"),width=10, height=2)
 stop_button.pack()
 
 # Start updating frames
