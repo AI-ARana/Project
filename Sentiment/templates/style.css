@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    text-align: center;
+    color: white;
+    background-color: #333333; /* Set background color to black */
+    background-size: cover; /* Ensures the background covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    color: white; /* Sets the text color to white */
+}
+
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
