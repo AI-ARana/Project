@@ -7,6 +7,10 @@ import tiktoken
 import torch
 from torch.utils.data import Dataset, DataLoader
 
+# Check for GPU availability and set the device
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Using device: {device}")
+
 # if not os.path.exists("the-verdict.txt"):
 #     url = ("F:/Jupyter/Python/the-verdict.txt")
 #     file_path = "the-verdict.txt"
